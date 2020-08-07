@@ -1,3 +1,8 @@
+import requests
+import json
+import pprint
+import textwrap
+
 class LivyConnector:
     def __init__(self, livy_url):
         self.livy_url = livy_url
